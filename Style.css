@@ -1,0 +1,97 @@
+/* General body style */
+body {
+    font-family: Arial, sans-serif;
+    background: url("BSITLOGO.jpg") no-repeat center center fixed;
+    background-size: cover;   /* Para ang logo mapuno sa screen (murag wallpaper) */
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+    color: white; /* white text para klaro sa dark bg */
+  }
+  
+  /* Overlay para readable ang sulod */
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.5); /* semi-transparent black overlay */
+    z-index: -1;
+  }
+  
+  /* Header */
+  header {
+    background: rgba(0, 64, 128, 0.8); /* semi-transparent blue */
+    color: white;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: px;
+  }
+
+  
+/* Container para side by side */
+.header-container {
+    display: flex;
+    align-items: center;   /* para pantay ang logo ug text */
+    justify-content: center; /* para centered ang tanan */
+    gap: 15px; /* spacing sa logo ug text */
+  }
+  
+  /* Logo style */
+  .logo {
+    width: 80px;   /* pwede nimo usbon ang size */
+    height: 80px;
+    border-radius: 50%;  /* circular effect */
+    object-fit: cover;
+  }
+  
+  /* Text */
+  .header-text h1 {
+    margin: 0;
+    font-size: 28px;
+  }
+  .header-text h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: normal;
+  }
+  
+
+  
+  /* Navigation */
+  nav {
+    margin: 20px 0;
+  }
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: rgb(171, 243, 4);
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.192);
+    padding: 10px 15px;
+    border-radius: 10px;
+  }
+  nav a:hover {
+    background: rgba(255,255,255,0.3);
+  }
+  
+  /* Content container */
+  .content {
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.6;      /* para medyo ginhawa ang spacing sa linya */
+    font-size: 18px;   
+    text-align: left;
+    background: rgba(0,0,0,0.5); /* transparent black bg for readability */
+    padding: 25px;
+    border-radius: 15px;
+  }
+  
+  /* Goals list */
+  ul {
+    text-align: left;
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.6;
+    font-size: 18px;
+  }
+  
