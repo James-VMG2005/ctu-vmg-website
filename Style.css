@@ -1,7 +1,7 @@
 /* General body style */
 body {
     font-family: Arial, sans-serif;
-    background: url("BSITLOGO.jpg") no-repeat center center fixed;
+    background: url("CTU_new_logo.png") no-repeat center center fixed;
     background-size: cover;   /* Para ang logo mapuno sa screen (murag wallpaper) */
     text-align: center;
     padding: 50px;
@@ -96,3 +96,4 @@ body {
   }
 
   
+
